@@ -16,6 +16,7 @@ public class createArmy : MonoBehaviour
             if (hit) {
                 if (hitInfo.transform.gameObject.name == "house")
                 {
+                    // TODO take coordinates from building and add building selection for spawning units
                     Instantiate(armyPrefab, new Vector3(20, 2, 20), Quaternion.identity);
                 }
             }
